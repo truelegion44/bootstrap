@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Merriweather:ital,wght@1,300&family=Poiret+One&family=Raleway:wght@200&family=Tiro+Bangla:ital@1&display=swap');
+
+:root{
+  --color-body:#362700;
+  --color-heading:#ED710C;
+  font-family: 'Cedarville Cursive', cursive;
+  font-family: 'Merriweather', serif;
+  font-family: 'Poiret One', cursive;
+  font-family: 'Raleway', sans-serif;
+  font-family: 'Tiro Bangla', serif;;
+
+}
+body{
+  background-color: var(--color-body);
+  color: var(--color-heading);
+  font-family:'Cedarville Cursive', cursive;
+  font-family: 'Merriweather', serif;
+  font-family: 'Poiret One', cursive;
+  font-family: 'Raleway', sans-serif;
+  font-family: 'Tiro Bangla', serif;; ;
+
+}
+
+
+
