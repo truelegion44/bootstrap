@@ -8,11 +8,15 @@
   font-family: 'Poiret One', cursive;
   font-family: 'Raleway', sans-serif;
   font-family: 'Tiro Bangla', serif;;
+  text-transform: uppercase;
 
 }
 body{
   background-color: var(--color-body);
   color: var(--color-heading);
+  background-image:url(images/red-sunset-sunwallpaper.jpeg);
+  background-repeat: repeat-x;
+  background-size: cover;
   font-family:'Cedarville Cursive', cursive;
   font-family: 'Merriweather', serif;
   font-family: 'Poiret One', cursive;
@@ -21,5 +25,75 @@ body{
 
 }
 
+.fade-in-text{
+  animation: fade_in ease .5s forwards;
+  cursor: pointer;
+  border-radius: 20px;
 
+}
+.btn-brand{
+  padding:.4rem 1rem;
+  margin-right:8px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: all linear.2s;
+  position: relative;
+  background-color:#ED710C ;
+  border-color:#602B06;
+  color: #7E0000;
+}
+.btn-brand:hover,
+.btn-brand:focus{
+  background-color:#ED710C;
+}
+a {
+  box-shadow: inset 0 0 0  #ED710C;
+  color:  #ED710C;
+  margin: 0 -.25rem;
+  padding: 0 .25rem;
+  transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+}
+a:hover {
+  box-shadow: inset 100px 0 0 0  #ED710C;
+  color: white;
+}
+.bg-base{
+  background-color:#7E0000;
+}
+.shadow-effect{
+  transition: all 0.5s;
+  filter: drop-shadow(5px 6px 0px hsla(39, 100%, 50%, 0.5));
+}
+.shodow-effect:hover{
+  box-shadow: 0 0 11 0px var(--color-heading);
+ 
+}
+.my-element h1 {
+  padding: 1.5em;
+  background: hsl(0 100% 100% / 55%);
+  backdrop-filter: blur(10px);
+  z-index: 1;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.my-element {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 80vh;
+  max-height: 600px;
+  position: relative;
+}
+
+.my-element img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
 
